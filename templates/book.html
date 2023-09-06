@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+
+{% block title%} <h1 class="title">Book</h1> {% endblock%}
+{% block content %}
+
+<div class="card m-auto p-sm-3" style="max-width: 1240px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img class="card-img" src="{{ url_for('static', filename= books_info[0]) }}"
+                alt="Card image">
+        </div>
+        <div class="col-md-8 p-3">
+            <div class="card-body">
+                <h2 class="card-title">{{books_info[1]}}</h2>
+                <a class="btn btn-outline-warning" href="{{ url_for('writer_info', writer_name=books_info[6]) }}">{{books_info[6]}} </a>
+                <br><br>
+                <p class="card-text">{{books_info[2]}}</p>
+                <hr>
+                <p class="card-text">Year of publication: {{books_info[3]}}</p>
+                <p class="card-text">Raiting: {{books_info[4]}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
+
+

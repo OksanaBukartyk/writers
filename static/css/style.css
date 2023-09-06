@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-top:100px;
+    padding: 50px;
+    background-image: url('/static/images/2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+    width: 100vh;
+    align-items: center;
+}
+.container p{
+    margin: 70px 150px 150px;
+    padding-right: 30px;
+    font-style:oblique;
+    color: #5b380b;
+}
+.container span{
+    float: right;
+    margin: 25px;
+}
+
+footer p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navbar{
+    padding:  20px 500px;
+    background-color: rgb(245, 230, 212);   
+}
+
+.main-img{
+    padding: 0;
+    margin: 0;
+    height: 80vh;
+    width: 2000px;
+}
+
+.title{
+    margin-top: 90px;
+    color: #5b380b;
+    text-align: center;
+}
+
+.list{
+    margin-top: 100px;
+}
+.container-list{
+    margin-top: 100px;
+}
+
+.form{
+    align-items: center;
+}

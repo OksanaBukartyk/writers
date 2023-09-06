@@ -1,0 +1,171 @@
+{
+    "writers": [
+        {
+            "image": "images/shakespeare.jpg",
+            "name": "William Shakespeare",
+            "information": "William Shakespeare is widely regarded as one of the greatest writers in the English language. He was born on or around 23 April 1564 in Stratford-upon-Avon, the eldest son of John Shakespeare, a prosperous glover and local dignitary, and Mary Arden, the daughter of a wealthy farmer. There are no records of William’s education, but he probably went to King’s New School – a reputable Stratford grammar school where he would have learned Latin, Greek, theology and rhetoric – and may have had a Catholic upbringing. He may also have seen plays by the travelling theatre groups touring Stratford in the 1560s and 70s. At 18, William married Anne Hathaway, and the couple had three children over the next few years."
+        },
+        {
+            "image": "images/George_Orwell.jpg",
+            "name": "George Orwell",
+            "information": "Orwell was born in Motihari, Bengal, India, in 1903, to a family which he described in The Road to Wigan Pier (1937) as ‘lower-upper middle class’: ‘upper-middle class without money’. He worked hard and won a place at Eton but while there dedicated himself more to reading widely than passing exams. Rather than going on to University, he took the Indian Civil Service exams and became a policeman in Burma in 1921 – he was probably the first and only old Etonian to attend the Burmese police training academy. His experiences inspired his first novel, Burmese Days, which was published in New York in 1934 (British publishers feared libel cases)."
+        },
+        {
+            "image": "images/J.K.-Rowling.jpg",
+            "name": "J.K. Rowling",
+            "information": "Although she writes under the pen name J.K. Rowling, pronounced like rolling, her name when her first Harry Potter book was published was simply Joanne Rowling. Anticipating that the target audience of young boys might not want to read a book written by a woman, her publishers demanded that she use two initials, rather than her full name. As she had no middle name, she chose K as the second initial of her pen name, from her paternal grandmother Kathleen Ada Bulgen Rowling. She calls herself Jo and has said, No one ever called me Joanne when I was young, unless they were angry. Following her marriage, she has sometimes used the name Joanne Murray when conducting personal business. During the Leveson Inquiry she gave evidence under the name of Joanne Kathleen Rowling. In a 2012 interview, Rowling noted that she no longer cared that people pronounced her name incorrectly."
+        },
+        {
+            "image": "images/Kurt_Vonnegut.jpg",
+            "name": "Kurt Vonnegut",
+            "information": "Junior was an American novelist, satirist, and most recently, graphic artist. He was recognized as New York State Author for 2001-2003. He was born in Indianapolis, later the setting for many of his novels. He attended Cornell University from 1941 to 1943, where he wrote a column for the student newspaper, the Cornell Daily Sun. Vonnegut trained as a chemist and worked as a journalist before joining the U.S. Army and serving in World War II. After the war, he attended University of Chicago as a graduate student in anthropology and also worked as a police reporter at the City News Bureau of Chicago. He left Chicago to work in Schenectady, New York in public relations for General Electric. He attributed his unadorned writing style to his reporting work."
+        },
+        {
+            "image": "images/Virginia_Woolf.jpg",
+            "name": "Virginia Woolf",
+            "information": "Virginia Woolf, original name in full Adeline Virginia Stephen, (born January 25, 1882, London, England—died March 28, 1941, near Rodmell, Sussex), English writer whose novels, through their nonlinear approaches to narrative, exerted a major influence on the genre. While she is best known for her novels, especially Mrs. Dalloway (1925) and To the Lighthouse (1927), Woolf also wrote pioneering essays on artistic theory, literary history, women’s writing, and the politics of power. A fine stylist, she experimented with several forms of biographical writing, composed painterly short fictions, and sent to her friends and family a lifetime of brilliant letters."
+        },
+        {
+            "image": "images/Ernest-Hemingway.jpg",
+            "name": "Ernest Hemingway",
+            "information": "Ernest Hemingway, in full Ernest Miller Hemingway, (born July 21, 1899, Cicero [now in Oak Park], Illinois, U.S.—died July 2, 1961, Ketchum, Idaho), American novelist and short-story writer, awarded the Nobel Prize for Literature in 1954. He was noted both for the intense masculinity of his writing and for his adventurous and widely publicized life. His succinct and lucid prose style exerted a powerful influence on American and British fiction in the 20th century. The first son of Clarence Edmonds Hemingway, a doctor, and Grace Hall Hemingway, Ernest Miller Hemingway was born in a suburb of Chicago. He was educated in the public schools and began to write in high school, where he was active and outstanding, but the parts of his boyhood that mattered most were summers spent with his family on Walloon Lake in upper Michigan."
+        },
+        {
+            "image": "images/William_Faulkner.jpg",
+            "name": "William Faulkner",
+            "information": "William Cuthbert Faulkner was a Nobel Prize-winning American novelist and short story writer. One of the most influential writers of the twentieth century, his reputation is based mostly on his novels, novellas, and short stories. He was also a published poet and an occasional screenwriter. The majority of his works are set in his native state of Mississippi. Though his work was published as early as 1919, and largely during the 1920s and 1930s, Faulkner was relatively unknown until receiving the 1949 Nobel Prize in Literature, for his powerful and artistically unique contribution to the modern American novel. Faulkner has often been cited as one of the most important writers in the history of American literature. Faulkner was influenced by European modernism, and employed stream of consciousness in several of his novels."
+        },
+        {
+            "image": "images/Ay_Rand.jpg",
+            "name": "Ayn Rand",
+            "information": "Alice OConnor, better known by her pen name Ayn Rand, was a Russian-born American writer and philosopher. She is known for her fiction and for developing a philosophical system she named Objectivism. Born and educated in Russia, she moved to the United States in 1926. After two early novels that were initially unsuccessful and two Broadway plays, she achieved fame with her 1943 novel, The Fountainhead. In 1957, Rand published her best-selling work, the novel Atlas Shrugged. Afterward, until her death in 1982, she turned to non-fiction to promote her philosophy, publishing her own periodicals and releasing several collections of essays."
+        },
+        {
+            "image": "images/James-Joyce.webp",
+            "name": "James Joyce",
+            "information": "A profound influence of literary innovations of Irish writer James Augustine Aloysius Joyce on modern fiction includes his works, Ulysses (1922) and Finnegans Wake (1939). People note this novelist for his experimental use of language in these works. Technical innovations of Joyce in the art of the novel include an extensive use of interior monologue; he used a complex network of symbolic parallels, drawn from the mythology, history, and literature, and he created a unique language of invented words, puns, and allusions. John Stanislaus Joyce, an impoverished gentleman and father of James Joyce, nine younger surviving siblings, and two other siblings who died of typhoid, failed in a distillery business and tried all kinds of other professions, including politics and tax collecting. The Roman Catholic Church dominated life of Mary Jane Murray, an accomplished pianist and his mother. In spite of poverty, the family struggled to maintain a solid middle-class façade."
+        }
+    ],
+    "books": [
+        {
+            "image": "images/Hamlet.jpg",
+            "name": "Hamlet",
+            "information": "The Tragedy of Hamlet, Prince of Denmark, often shortened to Hamlet, is a tragedy written by William Shakespeare sometime between 1599 and 1601. It is Shakespeares longest play, with 29,551 words. Set in Denmark, the play depicts Prince Hamlet and his attempts to exact revenge against his uncle, Claudius, who has murdered Hamlets father in order to seize his throne and marry Hamlets mother. Hamlet is considered among the most powerful and influential tragedies in the English language, with a story capable of seemingly endless retelling and adaptation by others. There are many works that have been pointed to as possible sources for Shakespeares play—from ancient Greek tragedies to Elizabethan plays. The editors of the Arden Shakespeare question the idea of source hunting, pointing out that it presupposes that authors always require ideas from other works for their own, and suggests that no author can have an original idea or be an originator. When Shakespeare wrote, there were many stories about sons avenging the murder of their fathers, and many about clever avenging sons pretending to be foolish in order to outsmart their foes. This would include the story of the ancient Roman, Lucius Junius Brutus, which Shakespeare apparently knew, as well as the story of Amleth, which was preserved in Latin by 13th-century chronicler Saxo Grammaticus in his Gesta Danorum, and printed in Paris in 1514. The Amleth story was subsequently adapted and then published in French in 1570 by the 16th-century scholar François de Belleforest. It has a number of plot elements and major characters in common with Shakespeares Hamlet, and lacks others that are found in Shakespeare. Belleforests story was first published in English in 1608, after Hamlet had been written, though its possible that Shakespeare had encountered it in the French-language version. Three different early versions of the play are extant: the First Quarto (Q1, 1603); the Second Quarto (Q2, 1604); and the First Folio (F1, 1623). Each version includes lines and passages missing from the others.",
+            "year": 1600,
+            "raiting": 1,
+            "author_id": 1
+        },
+        {
+            "image": "images/Romeo_and_Julliet.jpg",
+            "name": "Romeo and Juliet",
+            "information": "Romeo and Juliet is a tragedy written by William Shakespeare early in his career about the romance between two Italian youths from feuding families. It was among Shakespeares most popular plays during his lifetime and, along with Hamlet, is one of his most frequently performed. Today, the title characters are regarded as archetypal young lovers. Romeo and Juliet belongs to a tradition of tragic romances stretching back to antiquity. The plot is based on an Italian tale written by Matteo Bandello and translated into verse as The Tragical History of Romeus and Juliet by Arthur Brooke in 1562 and retold in prose in Palace of Pleasure by William Painter in 1567. Shakespeare borrowed heavily from both but expanded the plot by developing a number of supporting characters, particularly Mercutio and Paris. Believed to have been written between 1591 and 1595, the play was first published in a quarto version in 1597. The text of the first quarto version was of poor quality, however, and later editions corrected the text to conform more closely with Shakespeares original.",
+            "year": 1597,
+            "raiting": 3,
+            "author_id": 1
+        },
+        {
+            "image": "images/King_Lear.jpg",
+            "name": "King Lear",
+            "information": "King Lear is a tragedy written by William Shakespeare. It is based on the mythological Leir of Britain. King Lear, in preparation for his old age, divides his power and land between two of his daughters. He becomes destitute and insane and a proscribed crux of political machinations. The first known performance of any version of Shakespeares play was on Saint Stephens Day in 1606. The three extant publications from which modern editors derive their texts are the 1608 quarto (Q1) and the 1619 quarto (Q2, unofficial and based on Q1) and the 1623 First Folio. The quarto versions differ significantly from the folio version. The play was often revised after the English Restoration for audiences who disliked its dark and depressing tone, but since the 19th century Shakespeares original play has been regarded as one of his supreme achievements. Both the title role and the supporting roles have been coveted by accomplished actors, and the play has been widely adapted. In his A Defence of Poetry, Percy Bysshe Shelley called King Lear the most perfect specimen of the dramatic art existing in the world, and the play is regularly cited as one of the greatest works of literature ever written.",
+            "year": 1606,
+            "raiting": 6,
+            "author_id": 1
+        },
+        {
+            "image": "images/1984.jpg",
+            "name": "Nineteen Eighty-Four",
+            "information": "Nineteen Eighty-Four (also published as 1984) is a dystopian social science fiction novel and cautionary tale by English writer George Orwell. It was published on 8 June 1949 by Secker & Warburg as Orwells ninth and final book completed in his lifetime. Thematically, it centres on the consequences of totalitarianism, mass surveillance and repressive regimentation of people and behaviours within society. Orwell, a democratic socialist, modelled the authoritarian state in the novel on the Soviet Union in the era of Stalinism, and Nazi Germany. More broadly, the novel examines the role of truth and facts within societies and the ways in which they can be manipulated.",
+            "year": 1949,
+            "raiting": 2,
+            "author_id": 2
+        },
+        {
+            "image": "images/Animal_Farm.jpg",
+            "name": "Animal Farm",
+            "information": "Animal Farm is a beast fable,[1] in the form of a satirical allegorical novella, by George Orwell, first published in England on 17 August 1945.[2][3] It tells the story of a group of anthropomorphic farm animals who rebel against their human farmer, hoping to create a society where the animals can be equal, free, and happy. Ultimately, the rebellion is betrayed, and under the dictatorship of a pig named Napoleon, the farm ends up in a state as bad as it was before. According to Orwell, Animal Farm reflects events leading up to the Russian Revolution of 1917 and then on into the Stalinist era of the Soviet Union. Orwell, a democratic socialist, was a critic of Joseph Stalin and hostile to Moscow-directed Stalinism, an attitude that was critically shaped by his experiences during the Barcelona May Days conflicts between the POUM and Stalinist forces during the Spanish Civil War.[6][a] In a letter to Yvonne Davet, Orwell described Animal Farm as a satirical tale against Stalin (un conte satirique contre Staline),and in his essay Why I Write  (1946), wrote that Animal Farm was the first book in which he tried, with full consciousness of what he was doing,  to fuse political purpose and artistic purpose into one whole .",
+            "year": 1945,
+            "raiting": 7,
+            "author_id": 2
+        },
+        {
+            "image": "images/FantasticBeastsProp.webp",
+            "name": "Fantastic Beasts and Where to Find Them",
+            "information": "Fantastic Beasts and Where to Find Them (often referred to as simply Fantastic Beasts) is a 2001 guide book written by British author J. K. Rowling (under the pen name of the fictitious author Newt Scamander) about the magical creatures in the Harry Potter universe. The original version, illustrated by the author herself, purports to be Harry Potter s copy of the textbook of the same name mentioned in Harry Potter and the Philosopher s Stone (or Harry Potter and the Sorcerer s Stone in the US), the first novel of the Harry Potter series. It includes several notes inside it supposedly handwritten by Harry, Ron Weasley, and Hermione Granger, detailing their own experiences with some of the beasts described, and including inside jokes relating to the original series. In a 2001 interview with publisher Scholastic, Rowling stated that she chose the subject of magical creatures because it was a fun topic for which she had already developed much information in earlier books. Rowling s name did not appear on the cover of the first edition, the work being credited under the pen name  Newt Scamander , who, in the books, wrote this textbook as seen on Harry s supply list for his first year.",
+            "year": 2010,
+            "raiting": 4,
+            "author_id": 3
+        },
+        {
+            "image": "images/HarryPotter.jpg",
+            "name": "Harry Potter and the Cursed Child",
+            "information": "Harry Potter and the Cursed Child is a play written by Jack Thorne, based on an original story written by J. K. Rowling, John Tiffany, and Thorne. The story is set nineteen years after the events of Harry Potter and the Deathly Hallows. It follows Harry Potter, now Head of the Department of Magical Law Enforcement at the Ministry of Magic, and his son, Albus Severus Potter, who is about to attend his first year at Hogwarts School of Witchcraft and Wizardry. Rowling has referred to the play as  the eighth Harry Potter story .From its premiere, Harry Potter and the Cursed Child has received near-universal critical acclaim for its magic, illusions, and stage wizardry. The original West End production premiered at the Palace Theatre on 7 June 2016. It received a record-breaking eleven nominations and won another record-breaking nine awards, including Best New Play, at the 2017 Laurence Olivier Awards. A Broadway production opened at the Lyric Theatre on 21 April 2018. That production received ten nominations and won six awards, including Best Play at the 2018 Tony Awards.",
+            "year": 2016,
+            "raiting": 8,
+            "author_id": 3
+        },
+        {
+            "image": "images/Slaughterhouse-Five.jpg",
+            "name": "Slaughterhouse-Five",
+            "information": "Slaughterhouse-Five, or, The Children s Crusade: A Duty-Dance with Death is a 1969 semi-autobiographic science fiction-infused anti-war novel by Kurt Vonnegut. It follows the life and experiences of Billy Pilgrim, from his early years, to his time as an American soldier and chaplain s assistant during World War II, to the post-war years, with Billy occasionally traveling through time. The text centers on Billy s capture by the German Army and his survival of the Allied firebombing of Dresden as a prisoner of war, an experience which Vonnegut himself lived through as an American serviceman. The work has been called an example of  unmatched moral clarity  and  one of the most enduring anti-war novels of all time .",
+            "year": 1965,
+            "raiting": 5,
+            "author_id": 4
+        },
+        {
+            "image": "images/Mrs._Dalloway.jpg",
+            "name": "Mrs Dalloway",
+            "information": "Mrs. Dalloway is a novel by Virginia Woolf published on 14 May 1925. It details a day in the life of Clarissa Dalloway, a fictional upper-class woman in post-First World War England. It is one of Woolf s best-known novels. The working title of Mrs. Dalloway was The Hours. The novel began with two short stories,  Mrs. Dalloway in Bond Street  and the unfinished  The Prime Minister . The book describes Clarissa s preparations for a party she will host in the evening and the ensuing party. With an interior perspective, the story travels forwards and backwards in time, to construct an image of Clarissa s life and the inter-war social structure. The novel addresses the nature of time in personal experience through multiple interwoven stories. In October 2005, Mrs. Dalloway was included on TIME Magazines list of the 100 best English-language novels written since its first issue in 1923.",
+            "year": 1925,
+            "raiting": 10,
+            "author_id": 5
+        },
+        {
+            "image": "images/Oldmansea.jpg",
+            "name": "The Old Man and the Sea",
+            "information": "The Old Man and the Sea is a novella written by the American author Ernest Hemingway in 1951 in Cayo Blanco (Cuba), and published in 1952. It was the last major work of fiction written by Hemingway that was published during his lifetime. One of his most famous works, it tells the story of Santiago, an aging Cuban fisherman who struggles with a giant marlin far out in the Gulf Stream off the coast of Cuba. In 1953, The Old Man and the Sea was awarded the Pulitzer Prize for Fiction, and it was cited by the Nobel Committee as contributing to their awarding of the Nobel Prize in Literature to Hemingway in 1954. The Old Man and the Sea was Ernest Hemingways sixth novel, following The Sun Also Rises (1926), A Farewell to Arms (1929), To Have and Have Not (1937), For Whom the Bell Tolls (1940), and Across the River and Into the Trees (1950). Although the latter, published on 7 September, sold 75,000 copies in its first month and remained on the New York Times bestseller list for twenty-one weeks, critical reception was largely negative. Amid a breakdown in marital relations with his long-suffering wife Mary, Hemingway fell deeper into obssessive love with his muse, the young Italian Adriana Ivancich, who spent the winter of 1950–51 in the Hemingways company in Cuba. Suddenly finding himself able to write in early December, he completed one book (published in 1970 as Islands in the Stream) of a planned sea trilogy, and, as his passion for Ivancich cooled, set about writing another story.",
+            "year": 1952,
+            "raiting": 13,
+            "author_id": 6
+        },
+        {
+            "image": "images/The_Garden_of_Eden.jpg",
+            "name": "The Garden of Eden",
+            "information": "The Garden of Eden is the second posthumously released novel of Ernest Hemingway, published in 1986. Hemingway started the novel in 1946 and worked on the manuscript for the next 15 years, during which time he also wrote The Old Man and the Sea, The Dangerous Summer, A Moveable Feast, and Islands in the Stream. The novel is fundamentally the story of five months in the lives of David Bourne, an American writer, and his wife Catherine. It is set mainly in the French Riviera, specifically in the Côte dAzur, and in Spain. The story begins with their honeymoon in the Camargue, then moves to Spain, then back to France (at a long low rose-colored Provençal house where they had stayed before... in the pines on the Estérel side of la Napoule (within easy driving distance to Cannes). However, early in the book, Catherine seemed to change (from Davids point of view—the novel is entirely from his vantage). While at le Grau du Roi, Catherine announces I have a big surprise, but does not tell David what it is other than to hint Oh its very simple but its very complicated and ...Im going to be changed. She bicycles into town, then returns with Her hair... cropped as short as a boys. Later, that night, she tells him Dont call me girl. and Please love me David the way I am. and implies that he is changing also (You are changing, she said. Oh you are. You are. Yes you are and youre my girl Catherine.)",
+            "year": 1986,
+            "raiting": 9,
+            "author_id": 6
+        },
+        {
+            "image": "images/As_I_Lay_Dying.jpg",
+            "name": "As I Lay Dying",
+            "information": "As I Lay Dying is a 1930 Southern Gothic novel by American author William Faulkner. Faulkners fifth novel, it is consistently ranked among the best novels of 20th-century literature. The title is derived from William Marriss 1925 translation of Homers Odyssey, referencing the similar themes of both works. The novel uses a stream-of-consciousness writing technique, multiple narrators, and varying chapter lengths. The book is narrated by 15 different characters over 59 chapters. It is the story of the death of Addie Bundren and her poor, rural familys quest and motivations—noble or selfish—to honor her wish to be buried in her hometown of Jefferson, Mississippi. In the novels first chapters, Addie is alive but in ill health. She expects to die soon and sits at a window watching as her firstborn child, Cash, builds her coffin. Anse, Addies husband, waits on the porch, while their daughter, Dewey Dell, fans her mother in the July heat. The night after Addie dies a heavy rainstorm sets in; rivers rise and wash out bridges that the family will need to cross to get to Jefferson.",
+            "year": 1930,
+            "raiting": 14,
+            "author_id": 7
+        },
+        {
+            "image": "images/Philosophy_Who_Needs_It.jpeg",
+            "name": "Philosophy: Who Needs It",
+            "information": "Philosophy: Who Needs It is a collection of essays by the philosopher Ayn Rand, published posthumously in 1982. It was the last book on which Rand worked during her lifetime. The title essay is an address given to the graduating class of the United States Military Academy on March 6, 1974, in which Rand argues that philosophy plays a central role in all human activities, that every action or thought has certain assumptions, and that humans need to examine those assumptions to live a full, meaningful life. Another speech included is Faith and Force: The Destroyers of the Modern World, which was delivered at college appearances in 1960. The remaining chapters are reprints of articles Rand published in the 1970s, primarily in her periodical The Ayn Rand Letter. These reprints include Kant Versus Sullivan, which is about how William Gibsons play The Miracle Worker illustrates the importance of language and conceptual learning, An Open Letter to Boris Spassky, addressed to Soviet chess grandmaster Boris Spassky, and The Stimulus and the Response, a critique of the book Beyond Freedom and Dignity by psychologist B. F. Skinner.",
+            "year": 1982,
+            "raiting": 12,
+            "author_id": 8
+        },
+        {
+            "image": "images/Evelin.jpg",
+            "name": "Eveline",
+            "information": "Eveline is a short story by the Irish writer James Joyce. It was first published in 1904 by the journal Irish Homestead and later featured in his 1914 collection of short stories Dubliners. It tells the story of Eveline, a teenager who plans to leave Dublin for Argentina with her lover. A young woman, Eveline, of about nineteen years of age sits by her window, waiting to leave home. She muses on the aspects of her life that are driving her away, while in her nostrils was the odor of dusty cretonne. Her mother has died as has her older brother Ernest. Her remaining brother, Harry, is on the road in the church decorating business. She fears that her father will beat her as he used to beat her brothers and she has little loyalty for her sales job. She has fallen for a sailor named Frank who promises to take her with him to Buenos Aires. Before leaving to meet Frank, she hears an organ grinder outside, which reminds her of a melody that played on an organ on the day her mother died and the promise she made to her mother to look after the home. At the dock where she and Frank are ready to embark on a ship together, Eveline is deeply conflicted and makes the painful decision not to leave with him. Nonetheless, her face registers no emotion at all. Like other tales in Dubliners, such as Araby, Eveline features a circular journey, where a character decides to go back to where their journey began and where the result of their journey is disappointment and reluctance to travel.",
+            "year": 1904,
+            "raiting": 15,
+            "author_id": 9
+        },
+        {
+            "image": "images/Dubliners.jpg",
+            "name": "Dubliners",
+            "information": "Dubliners is a collection of fifteen short stories by James Joyce, first published in 1914. It presents a naturalistic depiction of Irish middle class life in and around Dublin in the early years of the 20th century. The stories were written when Irish nationalism was at its peak, and a search for a national identity and purpose was raging; at a crossroads of history and culture, Ireland was jolted by various converging ideas and influences. They centre on Joyces idea of an epiphany (a moment where a character experiences a life-changing self-understanding or illumination) and the theme of paralysis (Joyce felt Irish nationalism stagnated cultural progression, placing Dublin at the heart of a regressive movement). The first three stories in the collection are narrated by child protagonists, while the subsequent stories are written in the third person and deal with the lives and concerns of progressively older people, in line with Joyces division of the collection into childhood, adolescence, maturity, and public life. Many of the characters in Dubliners later appeared in minor roles in Joyces novel Ulysses.",
+            "year": 1914,
+            "raiting": 11,
+            "author_id": 9
+        }
+    ]
+}

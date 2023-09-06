@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title%} <h1 class="title">Searh books page</h1> {% endblock%}
+
+{% block content %}
+
+<form class="card m-auto p-sm-3" style="max-width: 740px;" method="POST" action="/process_form">
+    <label for="writer_name">Writer`s name:</label>
+    <input type="text" id="writer_name" name="writer_name"><br><br>
+
+    <label for="book_name">Book`s name:</label>
+    <input type="text" id="book_name" name="book_name"><br><br>
+
+    <label for="book_year">Book`s year:</label>
+    <input type="number" id="book_year" name="book_year"><br><br>
+
+    <input class="btn btn-outline-warning" type="submit" value="Search">
+</form>
+{% if books != None %}
+    <h1 class="title">Results:</h1>
+    {% for book in books%}
+
+
+    <br>
+    <div class="card m-auto p-sm-3" style="max-width: 740px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img class="card-img" src="{{ url_for('static', filename= book[0]) }}"
+                    alt="Card image">
+            </div>
+            <div class="col-md-8 p-3">
+                <div class="card-body">
+                    <h5 class="card-title">{{book[1]}}</h5>
+                    <p class="card-text">{{book[2][:100]}}...</p>
+                    <p class="card-text"> Author: {{book[6]}}</p>
+                    <a href="{{ url_for('book_info', book_name=book[1], writer_name= book[6]) }}"
+                        class="btn btn-outline-warning">See more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    {% endfor%}
+    {% endif %}
+
+    {% endblock %}

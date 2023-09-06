@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+    {% block title%} <h1 class="title">WRITERs</h1> {% endblock%}
+
+    {% block content %}
+    {% for writer in writers%}
+
+    <br>
+    <div class="card m-auto p-sm-3" style="max-width: 740px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img class="card-img" src="{{ url_for('static', filename= writer[0]) }}"
+                    alt="Card image">
+            </div>
+            <div class="col-md-8 p-3">
+                <div class="card-body">
+                    <h5 class="card-title">{{writer[1]}}</h5>
+                    <p class="card-text">{{writer[2][:150]}}...</p>
+                    <a href="{{ url_for('writer_info', writer_name=writer[1]) }}"
+                        class="btn btn-outline-warning">See more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    {% endfor%}
+    {% endblock %}
