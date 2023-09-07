@@ -1,10 +1,9 @@
 from flask import Flask, redirect, render_template, url_for, request
-import psycopg2
-from init_db import Database, db_params
+from init_db import Database
 
 
 app = Flask(__name__)
-db = Database(db_params, Database.read_json())
+db = Database()
 
 # головна сторінка
 @app.route('/')
@@ -111,7 +110,6 @@ def process_form():
     writer_name = request.form['writer_name']
     book_name = request.form['book_name']
     book_year = request.form['book_year']
-    print (writer_name,book_name, type(book_year ))
     db.connect()
     if book_year!='':
         db.cursor.execute(f"SELECT books.image, books.name, books.information, books.year, books.raiting, writers.image, writers.name, writers.information FROM books JOIN writers ON writers.Id = books.author_id WHERE writers.name  ILIKE  '%{writer_name}%' AND books.name  ILIKE  '%{book_name}%' AND books.year = {book_year} ")

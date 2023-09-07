@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title%} <h1 class="title">Searh books page</h1> {% endblock%}
+{% block title%} <h2 class="title">Input something to search</h2> {% endblock%}
 
 {% block content %}
 
@@ -23,7 +23,7 @@
 
     <br>
     <div class="card m-auto p-sm-3" style="max-width: 740px;">
-        <div class="row g-0">
+        <div class="row g-5">
             <div class="col-md-4">
                 <img class="card-img" src="{{ url_for('static', filename= book[0]) }}"
                     alt="Card image">

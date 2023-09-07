@@ -1,38 +1,50 @@
-import os
 import psycopg2
 from psycopg2 import Error
 import json
 
 class Database:
-    def __init__(self, db_params, data):
-        self.db_params = db_params
+    def __init__(self):
+        self.db_params  = {
+        "host": "localhost",
+        "user": "postgres",
+        "database": "writers",
+        "password": "root"
+    }
         self.connection = None
         self.cursor = None
-        self.data = data
+        self.data = None
+
+    def read_json(self):
+        try:
+            with open("practic_books\static\json\data.json", "r", encoding="utf8") as json_file:
+                self.data = json.load(json_file)
+            return self.data
+        except Exception as error:
+            print('Помилка DB: ', error)
 
     def create_database(self):
         try:
             self.connection = psycopg2.connect(
                 dbname="postgres",
-                user=db_params["user"],
-                password=db_params["password"],
-                host=db_params["host"]
+                user=self.db_params["user"],
+                password=self.db_params["password"],
+                host=self.db_params["host"]
             )
         except Error as e:
             print(f"Error connecting to students database {e}")
         self.connection.autocommit = True
         self.cursor = self.connection.cursor()
-        new_db_name = db_params["database"]
+        new_db_name = self.db_params["database"]
         self.cursor.execute(f"CREATE DATABASE {new_db_name}")
         self.disconnect()
 
     def connect(self):
         try:
             self.connection = psycopg2.connect(
-                dbname=db_params["database"],
-                user=db_params["user"],
-                password=db_params["password"],
-                host=db_params["host"]
+                dbname=self.db_params["database"],
+                user=self.db_params["user"],
+                password=self.db_params["password"],
+                host=self.db_params["host"]
             )
             self.cursor = self.connection.cursor()
         except Exception as e:
@@ -79,30 +91,17 @@ class Database:
         except Exception as error:
             print('Помилка DB: ', error)
 
-
-
-    @staticmethod
-    def read_json():
+class App:
+    def main(self):
         try:
-            with open("Classwork\python\CL_17_Flask\practic_books\static\json\data.json", "r", encoding="utf8") as json_file:
-                data = json.load(json_file)
-            return data
+            db = Database()
+            # db.create_database()
+            # db.create_all_tables()
+            # db.add_data_to_db()
+            db.disconnect()
         except Exception as error:
-            print('Помилка DB: ', error) 
+            print('Помилка DB: ', error)
 
-db_params = {
-        "host": "localhost",
-        "user": "postgres",
-        "database": "writers",
-        "password": "root"
-    }
-
-try:
-    db = Database(db_params, Database.read_json())
-    # db.create_database()
-    # db.create_all_tables()
-    # db.add_data_to_db()
-    db.disconnect()
-except Exception as error:
-    print('Помилка DB: ', error)
-
+if __name__ == '__main__':
+    app = App()
+    app.main()
